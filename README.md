@@ -6,7 +6,7 @@ Aplicação C# para efetuar diversos tipos de cálculos
 
 
 
-Desenvolvida no âmbito da ação de formação \*\*Introdução ao Git e GitHub\*\* 
+Desenvolvida no âmbito da ação de formação **Introdução ao Git e GitHub** 
 
 
 
