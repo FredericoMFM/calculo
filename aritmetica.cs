@@ -20,25 +20,25 @@ namespace Calculos
     /// <summary>
     /// operações aritméticas
     /// </summary>
-    internal class aritmetica
+    internal static class aritmetica
     {
         /// <summary>
         /// Operação soma
         /// </summary>
         /// <returns>Retorna a soma de dois numero.s</returns>
-        public int somar(int x, int y) {
+        public static int somar(int x, int y) {
             return x + y;
         }
         /// <summary>
         /// Operação subtração
         /// </summary>
         /// <returns>Returna o resultado da subtração de dois numeros.</returns>
-        public int subtrair(int x, int y)
+        public static int subtrair(int x, int y)
         {
             return x - y;
         }
 
-        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        public static double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
         {
             if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
             {
