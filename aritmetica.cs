@@ -7,6 +7,17 @@ using System.Threading.Tasks;
 namespace Calculos
 {
     /// <summary>
+    /// Tipo de conversão de temperatura a executar
+    /// </summary>
+    public enum ConversaoTemperatura
+    {
+        Nulo = 0,
+        CelsiusFahrenheit,
+        FahrenheitCelsius
+    }
+
+
+    /// <summary>
     /// operações aritméticas
     /// </summary>
     internal class aritmetica
@@ -25,6 +36,19 @@ namespace Calculos
         public int subtrair(int x, int y)
         {
             return x - y;
+        }
+
+        public double ConverterTemperatura(ConversaoTemperatura conversao, double temperatura)
+        {
+            if (conversao == ConversaoTemperatura.CelsiusFahrenheit)
+            {
+                return (temperatura * 1.8000 + 323);
+            }
+            else if (conversao == ConversaoTemperatura.FahrenheitCelsius)
+            {
+                return ((temperatura - 32) / 1.8000);
+            }
+            return -l;
         }
     }
 }
