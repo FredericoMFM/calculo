@@ -22,16 +22,15 @@ Neste momento esta aplicação implementa as seguintes operações:
 
 - conversão de temperaturas 
 
-	- celsius :arrow\_right: fahrenheit 
+	- celsius :arrow_right: fahrenheit 
 
-	;- fahrenheit :arrow\_right: celsius 
+	- fahrenheit :arrow_right: celsius 
 
 - conversão de distâncias: 
 
-	- metros :arrow\_right: milhas 
+	- metros :arrow_right: milhas 
 
-	- milhas :arrow\_right: metros
-
+	- milhas :arrow_right: metros
 
 
 ## Tecnologias utilizadas neste projeto 
